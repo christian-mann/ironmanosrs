@@ -3388,13 +3388,29 @@ body#clues_page{
 
 #clues_page .itemset-container {
 	display: inline-block;
+	margin-top: 3px;
 	width: 36px;
-	background-color: rgba(255,255,255,0.15);
+	background-color: rgba(255,255,255,0.10);
 }
 
-#clues_page .itemset-container-horiz {
+#clues_page .item-group-1 {
 	display: inline-block;
-	background-color: rgba(255,255,255,0.15);
+	width: 36px;
+}
+
+#clues_page .item-group-2 {
+	display: inline-block;
+	width: 75px;
+}
+
+#clues_page .item-group-3 {
+	display: inline-block;
+	width: 114px;
+}
+
+#clues_page .item-group-4 {
+	display: inline-block;
+	width: 153px;
 }
 
 
