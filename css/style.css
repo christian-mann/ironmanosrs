@@ -167,7 +167,8 @@ button#screenshot:focus {
 	left: 26px;
 }
 
-.pets > .item {
+.pets > .item,
+.hydra > .item {
 	float: left;
 	position: relative;
 	vertical-align: bottom;
@@ -175,7 +176,8 @@ button#screenshot:focus {
 	height: 35px;
 }
 
-.pets > .item > img {
+.pets > .item > img,
+.hydra > .item > img {
 	/*position: absolute;*/
 	display: block;
 	margin: 0 auto;
@@ -186,6 +188,12 @@ button#screenshot:focus {
 	right: 0;
 }
 
+.hydra {
+	position: absolute;
+	top: 290px;
+	left: 1150px;
+	width: 70px;
+}
 
 #image2001, #image2006, #image2011, #image2016{
 	top: 33px;
@@ -560,6 +568,22 @@ div#image25:before {
 #image851 {
     position:absolute;
     left:129px;
+    top:510px;
+    width:17px;
+    height:29px;
+}
+
+#jar-of-chemicals {
+    position:absolute;
+    left:160px;
+    top:477px;
+    width:17px;
+    height:29px;
+}
+
+#jar-of-eyes {
+    position:absolute;
+    left:160px;
     top:510px;
     width:17px;
     height:29px;
@@ -2606,7 +2630,7 @@ div#image25:before {
 
 #image790 {
 	position:absolute;
-	left:216px;
+	left:247px;
 	top:475px;
 	width:30px;
 	height:29px;
@@ -2638,7 +2662,7 @@ div#image25:before {
 
 #image800 {
 	position:absolute;
-	left:182px;
+	left:213px;
 	top:477px;
 	width:33px;
 	height:24px;
@@ -2774,7 +2798,7 @@ div#image25:before {
 
 #image845 {
 	position:absolute;
-	left:214px;
+	left:245px;
 	top:511px;
 	width:31px;
 	height:28px;
