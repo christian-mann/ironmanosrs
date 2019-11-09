@@ -68,27 +68,6 @@ $(document).ready(function() {
     }
 
 
-    // clue page -- collapsible
-    $(".title-collapse").click(function() {
-    	var ico = $(this).find('i');
-    	var target = $(this).attr('data-target');
-    	
-    	if (ico.hasClass('fa-expand')) {
-    		ico.removeClass('fa-expand');
-    		ico.addClass('fa-compress');
-    		$(this).attr('title', 'Minimize');
-		} else {
-			ico.removeClass('fa-compress');
-			ico.addClass('fa-expand');
-			$(this).attr('title', 'Maximize');
-		}
-
-		// actual effect
-		$(target).toggleClass('none-important');
-	});
-    
-
-
 //check of duplicatees in clue page
 /*var a = [];
 $('#clues_page .item').each(function(index, element){
