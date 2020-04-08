@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# ./grab.sh "Large spade"
+
 set -e
 
 urlencode() {
