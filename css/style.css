@@ -195,45 +195,42 @@ button#screenshot:focus {
 	width: 70px;
 }
 
-#image2001, #image2006, #image2011, #image2016{
+/* noob items */
+
+#item-mystic-robe-top-dusk, #image2001, #image2006, #image2012, #image2016{
 	top: 33px;
 }
 
-#image2002, #image2007, #image2012, #image2017{
+#item-mystic-robe-bottom-dusk, #image2002, #image2007, #image2013, #image2017{
 	top: 63px;
 }
 
-#image2003, #image2008, #image2013, #image2018{
+#item-mystic-gloves-dusk, #image2003, #image2008, #image2014, #image2018{
 	top: 102px;
 }
 
-#image2004, #image2009, #image2014, #image2019{
+#item-mystic-boots-dusk, #image2004, #image2009, #image2020, #image2019{
 	top: 131px;
 }
 
-#image2014{
-	top: 135px;
-}
-
-#image2005,#image2006,#image2007,#image2008,#image2009{
+#image2000,#image2001,#image2002,#image2003,#image2004{
     left: 40px;
 }
 
-#image2010,#image2011,#image2012,#image2013,#image2014{
-    left: 120px;
-}
-
-#image2015,#image2016,#image2017,#image2018,#image2019{
+#image2005,#image2006,#image2007,#image2008,#image2009{
     left: 80px;
 }
 
-#image2016, #image2017{
-	left: 84px;
+#image2015,#image2016,#image2017,#image2018,#image2019{
+    left: 120px;
 }
 
-#image2020{
-	left: 155px;
-    top: 4px;
+#image2016, #image2017{
+	left: 124px;
+}
+
+#image2010,#image2011,#image2012,#image2013,#image2014,#image2020{
+    left: 160px;
 }
 
 #Table_01{
