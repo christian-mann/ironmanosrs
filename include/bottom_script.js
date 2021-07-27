@@ -92,6 +92,9 @@ for (var i = 0; i < recipientsArray.length - 1; i++) {
 console.log(reportRecipientsDuplicate);
 */
 
+    // fix a bug that we had a while ago which is causing problems now with new jQuery version
+    delete localStorage[""];
+
     for (var i = 0; i < localStorage.length; i++){
         $("#" + localStorage.getItem(localStorage.key(i))).addClass("active");
     }
